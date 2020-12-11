@@ -1,8 +1,10 @@
 @keyframes one {
     0% {
+        font-size: 0%;
         background-color: #fff;
     }
     100% {
+        font-size: 400%;
         background-color: #fbf;
     }
 }
@@ -10,14 +12,14 @@
 body {
     background-color: #fbf;
     color: #fff;
-    font-size: large;
+    font-size: 400%;
     text-align: center;
     animation-name: one;
     animation-duration: 4s;
 }
 
 a {
-    color: #0f0;
-    font-size: medium;
+    color: #fff;
+    font-size: 50%;
     text-align: center;
 }
