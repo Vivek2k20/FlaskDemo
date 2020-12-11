@@ -1,0 +1,23 @@
+@keyframes one {
+    0% {
+        background-color: #fff;
+    }
+    100% {
+        background-color: #fbf;
+    }
+}
+
+body {
+    background-color: #fbf;
+    color: #f00;
+    font-size: large;
+    text-align: center;
+    animation-name: one;
+    animation-duration: 4s;
+}
+
+a {
+    color: #0f0;
+    font-size: medium;
+    text-align: center;
+}

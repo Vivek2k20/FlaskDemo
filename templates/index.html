@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title> Demo </title>
+{% endblock %}
+
+{% block body %}
+{% if a=="" %}
+<h1>What is your name?<h1>
+<form action="/" method="POST">
+    <input autocomplete="off" style="font-size:1.5vmax;" type="text" name="content" id="content">
+    <input type="submit" style="font-size:1.5vmax;" value="Submit">
+</form>
+{% else %}
+<h1> Hey,{{ a }}<h1>
+<h2><a href="/">Not {{a}}?</a></h2>
+{% endif %}
+
+{% endblock %}
